@@ -1,0 +1,10 @@
+Programming Environment (CSE1PE) {
+Lecture-([2,9,2])
+Lab-([2,12,2],[2,14,2],[3,9,2],[3,11,2],[4,9,2],[4,11,2])};
+Inside Information Technology (CSE1IIT) {
+Lecture-([1,11,2])
+Lab-([1,13,2],[2,11,2])};
+Economic Issues and Public Policy (BUS1BUE) {
+Workshop-([2,10,2],[2,12,2],[3,10,2],[3,12,2],[4,8,2],[4,10,2],[4,14,2])};
+Sustainability (BUS1SBY) {
+Workshop-([1,10,2],[1,12,2],[1,14,2],[2,10,2],[2,14,2],[3,8,2],[3,10,2],[4,12,2],[4,14,2])};
