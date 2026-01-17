@@ -3,6 +3,7 @@ public class Instance {
     private String dayName;
     private int hour;
     private int length;
+    private Class type;
 
     public Instance(int day, int hour, int length)
     {
@@ -10,17 +11,18 @@ public class Instance {
         this.hour = hour;
         this.length = length;
 
+        dayName = Instance.dayName(day);
+    }
+
+    public static String dayName(int day)
+    {
         switch (day) {
-            case 1:     dayName = "Monday";
-                        break;
-            case 2:     dayName = "Tuesday";
-                        break;
-            case 3:     dayName = "Wednesday";
-                        break;
-            case 4:     dayName = "Thursday";
-                        break;
-            case 5:     dayName = "Friday";
-                        break;
+            case 1:     return "Monday";
+            case 2:     return "Tuesday";
+            case 3:     return "Wednesday";
+            case 4:     return "Thursday";
+            case 5:     return "Friday";
+            default:    return "Invalid";
         }
     }
 
@@ -64,5 +66,15 @@ public class Instance {
             return null;
         }
 
+    }
+
+    public Class getType()
+    {
+        return type;
+    }
+
+    public void setType(Class type)
+    {
+        this.type = type;
     }
 }

@@ -66,4 +66,9 @@ public class Class {
             return type + " time not chosen";
         }
     }
+
+    public Instance getInstance(int index)
+    {
+        return options[index];
+    }
 }
